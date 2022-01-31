@@ -1,0 +1,32 @@
+.about {
+  padding: 94px;
+}
+
+.about__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.about__items {
+  max-width: 270px;
+  margin-left: 30px;
+  justify-content: space-between;
+  align-content: flex-start;
+  text-align: left;
+
+  &:first-child {
+    margin-left: 0;
+  }
+}
+
+.about__icon {
+  display: flex;
+  background-color: #f5f4fa;
+  width: 270px;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  border-radius: 4px;
+}

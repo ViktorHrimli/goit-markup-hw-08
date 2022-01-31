@@ -1,0 +1,36 @@
+@import './utils/variables';
+@import './base/reset';
+@import './base/comon';
+
+// COMPONENTS
+@import './components/btn';
+@import './components/conteiner';
+@import './components/link';
+@import './components/section';
+@import './components/text';
+@import './components/form';
+@import './components/modal';
+@import './components/icons';
+
+// NAV
+@import './layout/header';
+// HERO
+@import './layout/hero';
+// ABOUT
+@import './layout/about';
+// WORK
+@import './layout/work';
+// TEAM
+@import './layout/teams';
+// CLIENTS
+@import './layout/clients';
+// FOOTER
+@import './layout/footer';
+// OVERLEY
+@import './layout/overley';
+// PROGECTS
+@import './layout/progects';
+// PORTFOLIO-BTN
+@import './layout/portfolio-btn';
+// LOGO
+@import './layout/logo';
