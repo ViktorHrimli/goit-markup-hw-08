@@ -4,6 +4,13 @@
   font-size: 14px;
 }
 
+%text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
 .heading {
   font-size: 36px;
   margin-top: 0%;
@@ -14,7 +21,7 @@
   letter-spacing: var(--letter-spacing);
 }
 
-.text-list {
+.paragraph__text {
   margin-top: 0;
   margin-bottom: 0;
   color: #757575;
@@ -23,7 +30,7 @@
   letter-spacing: var(--letter-spacing);
 }
 
-.head-list {
+.head__text {
   color: #212121;
   margin-bottom: 10px;
   font-weight: bold;

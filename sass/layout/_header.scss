@@ -1,12 +1,35 @@
-// BLOCKS
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
   background-color: var(--hero-color);
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
+  margin-left: auto;
+  margin-right: auto;
+
+  // 320 //
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    position: relative;
+    padding: 16px 15px;
+  }
+
+  // 768 //
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    padding: 21px 15px;
+  }
+
+  .header__mobile--icon {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+
+    @media screen and (min-width: 768px) {
+      display: none;
+    }
+  }
 
   .header__conteiner {
     display: flex;
+    max-width: 1200px;
   }
 
   .header__adress {
@@ -15,6 +38,17 @@
     align-items: center;
     margin-left: auto;
     margin-right: 25px;
+
+    // 320
+    @media screen and (min-width: 320px) and (max-width: 767px) {
+      display: none;
+    }
+
+    // 768
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+      flex-direction: column;
+      margin-right: 0;
+    }
   }
 }
 
@@ -24,15 +58,12 @@
 
   .header__list {
     display: flex;
-  }
-}
-// BLOCKS/
 
-%text {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+    // 320
+    @media screen and (min-width: 320px) and (max-width: 767px) {
+      display: none;
+    }
+  }
 }
 
 .header__item {
@@ -53,6 +84,16 @@
   &:first-child {
     margin-right: 50px;
   }
+  // 768
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    &:first-child {
+      margin-right: 0;
+    }
+
+    &:last-child {
+      margin-right: 15px;
+    }
+  }
 }
 
 .current {
@@ -72,6 +113,10 @@
     color: var(--button-color);
     background: #2196f3;
     border-radius: 2px;
+
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+      bottom: -39px;
+    }
   }
 }
 
@@ -86,6 +131,11 @@
   align-items: flex-start;
   margin-right: 10px;
   fill: currentColor;
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    margin-right: 8px;
+    width: 14px;
+  }
 }
 
 .icon-phone {
@@ -93,4 +143,9 @@
   margin-right: 10px;
   cursor: pointer;
   fill: currentColor;
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    margin-right: 8px;
+    height: 14px;
+  }
 }

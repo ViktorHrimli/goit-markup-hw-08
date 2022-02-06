@@ -2,8 +2,47 @@
   display: flex;
   justify-content: center;
   margin-top: 100px;
+
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    margin-top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-right: 30px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    margin-top: 0;
+    justify-content: center;
+    align-self: center;
+  }
+}
+
+.conteiner__bnt {
+  margin-top: 94px;
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-top: 60px;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    margin-top: 60px;
+  }
 }
 
 .buttons-num {
   margin-right: 8px;
+  &:last-child {
+    margin-right: 0;
+  }
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    &:nth-last-child(-n + 2) {
+      margin-top: 15px;
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    margin-top: 0;
+  }
 }

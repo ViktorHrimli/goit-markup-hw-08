@@ -21,6 +21,11 @@
         
             <a class="link" href="./index.html">
                 <span class="logo">Web</span><span class="logo-studio">Studio</span></a>
+                
+                <svg class="header__mobile--icon" width="40" height="40">
+                    <use href="imeges/iconsvg.svg#icon-close_40px"></use>
+                    <use href="imeges/iconsvg.svg#icon-menumobile"></use>
+                </svg>
 
         <ul class="header__list list">
             <li class="header__item"><a class="link current" href="./index.html">Студия</a></li>
@@ -51,7 +56,7 @@
     
     <main>
         <section class="hero section">
-            <div class="conteiner">
+            <div class="">
             <h1 class="hero__text">Эффективные решения <br> для вашего бизнеса</h1>
             <button data-modal-open type="button" class="button">Заказать услугу </button>
     
@@ -61,7 +66,7 @@
         <!-- Особенности -->
     <section class="about section">
     
-        <div class="conteiner">
+        <div class="conteiner about__conteiner">
         <h2 class="heading visually-hidden">Что мы умеем</h2>
         <ul class="about__list list">
             
@@ -72,8 +77,8 @@
                     </svg>
                 </div>
             
-                <h3 class="head-list">Внимание к деталям</h3>
-                <p class="text-list"> Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                <h3 class="head__text">Внимание к деталям</h3>
+                <p class="paragraph__text"> Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
             </li>
             
             <li class="about__items text">
@@ -82,8 +87,8 @@
                             <use class="icon-widh" href="imeges/iconsvg.svg#icon-clock"></use>
                         </svg>
                     </div>
-                <h3 class="head-list">Пунктуальность</h3>
-                <p class="text-list">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                <h3 class="head__text">Пунктуальность</h3>
+                <p class="paragraph__text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
             </li>
             
             <li class="about__items text">
@@ -92,8 +97,8 @@
                             <use class="icon-widh" href="imeges/iconsvg.svg#icon-diagram"></use>
                         </svg>
                     </div>
-                <h3 class="head-list">Планирование</h3>
-                <p class="text-list">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                <h3 class="head__text">Планирование</h3>
+                <p class="paragraph__text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
             </li>
             
             <li class="about__items text">
@@ -102,19 +107,19 @@
                             <use class="icon-widh" href="imeges/iconsvg.svg#icon-astronaut"></use>
                         </svg>
                     </div>
-                <h3 class="head-list">Современные технологии</h3>
-                <p class="text-list">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                <h3 class="head__text">Современные технологии</h3>
+                <p class="paragraph__text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
             </li>
         </ul>
         </div>
     
 </section>
         <!-- Чем мы занимаемся  -->
-    <section class="section">
+    <section class="section work ">
         <div class="conteiner">
         <h2 class="heading">Чем мы занимаемся</h2>
         
-        <ul class="list works">
+        <ul class="list work__list">
             <li class="work__photo">
                 <img src="./imeges/portfol.jpg" alt="Фото работы" width="370">
                 <div class="work__fon">
@@ -324,12 +329,13 @@
     
 <footer class="footer">
 <div class="conteiner footer__backgraund ">
+    <div class="footer__conteiners--centr">
     <div class="footer__left">
         <a class="link" href="/index.html">
             <span class="logo">Web</span><span class="logo__footer">Studio</span>
         </a>
         <address class="adress">
-            <ul class="list">
+            <ul class="list adress__list">
                 <li class=""><a class="link ithem__adress--color" href="https://goo.gl/maps/Gu5Dw9EAoeBzcQZ39">г.
                         Киев, пр-т Леси Украинки,26</a></li>
                 <li class=""><a class="link ithem__adress"
@@ -373,10 +379,11 @@
             </a>
         </li>  
             </div>
+            </div>
             <div class="footer__right">
             <div class="right__conteiner">
                 <p class="join">Подпишитесь на рассылку</p>
-                <label for="mail-fotter">
+                <label class="right__mail--footer" for="mail-fotter">
                     <input class="input-mail" type="mail-fotter" id="mail-fotter" name="mail-fotter" placeholder="E-mail">
                 </label>
             </div>
@@ -440,7 +447,7 @@
                     </svg>
                 </span>
                 Соглашаюсь с рассылкой и принимаю
-                <a class="checkbox__text link"  href="">  Условия договора</a></label>
+                <a class="checkbox__text link"  href=""> Условия договора</a></label>
         </div>
         <div class="modal__btn">
             <button class="button" type="submit">Отправить</button></div>

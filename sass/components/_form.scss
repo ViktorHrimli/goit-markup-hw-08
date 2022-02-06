@@ -117,7 +117,7 @@ textarea {
 }
 
 .checkbox__icon {
-  display: block;
+  display: inline-flex;
   width: 16px;
   height: 15px;
   background-color: #fff;
@@ -136,7 +136,7 @@ textarea {
 }
 
 .checkbox__lable {
-  display: flex;
+  // display: flex;
   justify-content: center;
   align-items: center;
 }
