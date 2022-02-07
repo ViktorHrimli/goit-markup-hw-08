@@ -1292,7 +1292,6 @@ textarea::placeholder {
 @media screen and (min-width: 1200px) {
   .footer__conteiners--centr {
     display: flex;
-    margin-left: 15px;
   }
 }
 
@@ -1557,6 +1556,8 @@ textarea::placeholder {
 @media screen and (min-width: 1200px) {
   .progects {
     width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
   }
