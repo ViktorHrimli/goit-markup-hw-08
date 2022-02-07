@@ -1694,7 +1694,13 @@ textarea::placeholder {
   margin-right: 0;
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 419px) {
+  .buttons-num {
+    margin-top: 8px;
+  }
+}
+
+@media screen and (min-width: 420px) and (max-width: 767px) {
   .buttons-num:nth-last-child(-n + 2) {
     margin-top: 15px;
   }

@@ -37,7 +37,10 @@
   &:last-child {
     margin-right: 0;
   }
-  @media screen and (min-width: 320px) and (max-width: 767px) {
+  @media screen and (max-width: 419px) {
+    margin-top: 8px;
+  }
+  @media screen and (min-width: 420px) and (max-width: 767px) {
     &:nth-last-child(-n + 2) {
       margin-top: 15px;
     }
