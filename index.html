@@ -23,7 +23,7 @@
                 <span class="logo">Web</span><span class="logo-studio">Studio</span></a>
 
                 <button data-menu-open type="button" class="mobile__btn mobile__btn--open ">
-                <svg  class="" width="40" height="40">
+                <svg  class="mobile__icon--open" width="40" height="40">
                     <use href="imeges/iconsvg.svg#icon-menumobile"></use>
                 </svg>
                 </button>
@@ -60,7 +60,7 @@
 
             
                 <button data-menu-close type="button" class="mobile__btn">
-                    <svg class="header__mobile--icon" width="40" height="40">
+                    <svg class="mobile__icon--open" width="40" height="40">
                         <use href="imeges/iconsvg.svg#icon-close_40px"></use>
                     </svg>
             </button>
@@ -169,21 +169,27 @@
         
         <ul class="list work__list">
             <li class="work__photo">
-                <img src="./imeges/portfol.jpg" alt="Фото работы" width="370">
+                <img srcset="./imeges/desktop.jpg 1x,
+                                ./imeges/desktop--2.jpg 2x"
+                src="./imeges/portfol.jpg" alt="Фото работы" width="370">
                 <div class="work__fon">
                     <h3 class="work__text">Десктопные приложения</h3>
                 </div>
             </li> 
     
             <li class="work__photo">
-                <img src="./imeges/photo.jpg" alt="Фото работы" width="370">
+                <img srcset="./imeges/mobile.jpg 1x,
+                                ./imeges/mobile.jpg 2x"
+                src="./imeges/photo.jpg" alt="Фото работы" width="370">
                 <div class="work__fon">
                     <h3 class="work__text">Мобильные приложения</h3>
                 </div>
             </li>
     
             <li class="work__photo">
-                    <img src="./imeges/photow.jpg" alt="Фото работы" width="370">
+                    <img srcset="./imeges/design.jpg 1x,
+                                ./imeges/design.jpg 2x"
+                    src="./imeges/photow.jpg" alt="Фото работы" width="370">
                     <div class="work__fon">
                         <h3 class="work__text">Дизайнерские решения</h3>
                     </div>
@@ -201,7 +207,10 @@
          <h2 class="heading">Наша команда</h2>
          <ul class="list team__list ">
             <li class="team__title">
-                <img src="./imeges/igor.jpg" alt="Игор" width="270" height="260">
+                <img srcset="
+                            ./imeges/teams--igor.jpg 1x,
+                            ./imeges/teams--igor-2.jpg 2x" 
+                src="./imeges/igor.jpg" alt="Игор" width="270" height="260">
                 <div class="team__conteiner">
                 <h3 class="team__name">Игорь Демьяненко</h3>
                 <p class="team__text" lang="en">Product Designer</p>
@@ -228,7 +237,10 @@
                 </div>
             </li>
             <li class="team__title">
-                <img src="./imeges/lilu.jpg" alt="lilu" width="270" height="260">
+                <img srcset="
+                            ./imeges/teams--olga.jpg 1x,
+                            ./imeges/teams--olga-2.jpg 2x"
+                src="./imeges/lilu.jpg" alt="lilu" width="270" height="260">
                 <div class="team__conteiner">
                 <h3 class="team__name">Ольга Репина</h3>
                 <p class="team__text" lang="en">Frontend Developer</p>
@@ -255,7 +267,11 @@
                 </div>
             </li>
             <li class="team__title">
-                <img src="./imeges/bob.jpg" alt="Коля" width="270" height="260">
+                <img srcset="
+                            ./imeges/teams--nik.jpg 1x,
+                            ./imeges/teams--nik-2.jpg 2x"
+                
+                src="./imeges/bob.jpg" alt="Коля" width="270" height="260">
                 <div class="team__conteiner">
                 <h3 class="team__name">Николай Тарасов</h3>
                 <p class="team__text" lang="en">Marketing</p>
@@ -282,7 +298,11 @@
                 </div>
             </li>
             <li class="team__title">
-                <img src="./imeges/bil.jpg" alt="не коля" width="270" height="260">
+                <img srcset="
+                            ./imeges/teams--mix.jpg 1x,
+                            ./imeges/teams--mix-2.jpg 2x"
+                
+                src="./imeges/bil.jpg" alt="не коля" width="270" height="260">
                 <div class="team__conteiner">
                 <h3 class="team__name">Михаил Ермаков</h3>
                 <p class="team__text" lang="en">UI Designer</p>
@@ -489,12 +509,12 @@
         <div class="checkbox">
             <input class="visually-hidden checkbox__input" type="checkbox" name="topic" id="topic" width="16" height="15">
             <label class="checkbox__lable" for="topic">
-                <span>
+                <span class="checkbox__conteiner">
                     <svg class="checkbox__icon" height="16" wigth="15">
                         <use href="imeges/iconsvg.svg#icon-check"></use>
                     </svg>
                 </span>
-                Соглашаюсь с рассылкой и принимаю
+               <span class="text__form">Соглашаюсь с рассылкой и принимаю</span>
                 <a class="checkbox__text link"  href=""> Условия договора</a></label>
         </div>
         <div class="modal__btn">

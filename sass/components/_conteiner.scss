@@ -4,9 +4,97 @@
   margin: auto;
   width: 100%;
   @media screen and (min-width: 320px) and (max-width: 767px) {
+    margin: 0;
     width: 100%;
     @media screen and (min-width: 768px) and (max-width: 1199px) {
       width: 100%;
     }
+    @media screen and(min-width:1200px) {
+      width: 1200px;
+    }
   }
 }
+
+// <header class="header">
+//     <div class="header__conteiner">
+//         <nav class="header__nav">
+
+//             <a class="link" href="./index.html">
+//                 <span class="logo">Web</span><span class="logo-studio">Studio</span></a>
+
+//             <button data-menu-open type="button" class="mobile__btn mobile__btn--open ">
+//                 <svg class="mobile__icon-open" width="40" height="40">
+//                     <use href="imeges/iconsvg.svg#icon-menumobile"></use>
+//                 </svg>
+//             </button>
+
+//             <ul class="header__list list">
+//                 <li class="header__item"><a class="link " href="./index.html">Студия</a></li>
+//                 <li class="header__item"><a class="link current" href="./portfolio.html" target="_blank">Портфолио</a></li>
+//                 <li class="header__item"><a class="link" href=".Cotacts.html">Контакты</a></li>
+//             </ul>
+//         </nav>
+//         <ul class="header__adress list">
+//             <li class="adress__ithem">
+//                 <a class="link adress__link" href="mailto:info@devstudio.com"><svg class="icon-mail" width="16"
+//                         height="12">
+//                         <use href="./imeges/iconsvg.svg#icon-envelope">
+//                         </use>
+//                     </svg>info@devstudio.com
+//                 </a>
+//             </li>
+//             <li class="adress__ithem">
+//                 <a class="link adress__link" href="tel:+380961111111"> <svg class="icon-phone" width="10" height="16">
+//                         <use href="./imeges/iconsvg.svg#icon-smartphone"></use>
+//                     </svg> +38 096 111 11 11
+
+//                 </a>
+//             </li>
+//         </ul>
+
+//         <div data-menu class="mobile is-hidden">
+//             <div class="mobile__conteiner">
+
+//                 <button data-menu-close type="button" class="mobile__btn">
+//                     <svg class="mobile__icon-open" width="40" height="40">
+//                         <use href="imeges/iconsvg.svg#icon-close_40px"></use>
+//                     </svg>
+//                 </button>
+
+//                 <ul class="mobile__list list">
+//                     <li class="mobile__item"><a class="link" href="./index.html">Студия</a></li>
+//                     <li class="mobile__item"><a class="link current__mobile" href="./portfolio.html" target="_blank">Портфолио</a></li>
+//                     <li class="mobile__item"><a class="link" href=".Cotacts.html">Контакты</a></li>
+//                 </ul>
+//                 </nav>
+//                 <ul class="mobile__adress list">
+//                     <li class="mobile__adress--ithem">
+//                         <a class="link mobile__link--tel" href="tel:+380961111111">
+//                             +38 096 111 11 11</a>
+
+//                     </li>
+//                     <li class="mobile__adress--ithem">
+//                         <a class="link mobile__link--mail" href="mailto:info@devstudio.com">
+//                             info@devstudio.com
+//                         </a>
+//                     </li>
+//                 </ul>
+//                 <ul class="mobile__social--list list">
+//                     <li class="mobile__social--ithem">
+//                         <a class="link mobile__social--link" href="">Instagram</a>
+//                     </li>
+//                     <li class="mobile__social--ithem">
+//                         <a class="link mobile__social--link" href="">Twitter</a>
+//                     </li>
+//                     <li class="mobile__social--ithem">
+//                         <a class="link mobile__social--link" href="">Facebook</a>
+//                     </li>
+//                     <li class="mobile__social--ithem">
+//                         <a class="link mobile__social--link" href="">LinkedIn</a>
+//                     </li>
+//                 </ul>
+
+//             </div>
+//         </div>
+//     </div>
+// </header>
