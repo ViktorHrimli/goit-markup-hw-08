@@ -14,96 +14,7 @@
 <body>
 
     <!-- Шапка Портфолио -->
-<!-- <header class="header">
 
-    <div class="header__conteiner">
-        <nav class="header__nav">
-
-            <a class="link" href="./index.html">
-                <span class="logo">Web</span><span class="logo-studio">Studio</span></a>
-
-            <button data-menu-open type="button" class="mobile__btn mobile__btn--open ">
-                <svg class="mobile__icon-open" width="40" height="40">
-                    <use href="imeges/iconsvg.svg#icon-menumobile"></use>
-                </svg>
-            </button>
-
-
-
-
-            <ul class="header__list list">
-                <li class="header__item"><a class="link " href="./index.html">Студия</a></li>
-                <li class="header__item"><a class="link current" href="./portfolio.html" target="_blank">Портфолио</a></li>
-                <li class="header__item"><a class="link" href=".Cotacts.html">Контакты</a></li>
-            </ul>
-        </nav>
-        <ul class="header__adress list">
-            <li class="adress__ithem">
-                <a class="link adress__link" href="mailto:info@devstudio.com"><svg class="icon-mail" width="16"
-                        height="12">
-                        <use href="./imeges/iconsvg.svg#icon-envelope">
-                        </use>
-                    </svg>info@devstudio.com
-                </a>
-            </li>
-            <li class="adress__ithem">
-                <a class="link adress__link" href="tel:+380961111111"> <svg class="icon-phone" width="10" height="16">
-                        <use href="./imeges/iconsvg.svg#icon-smartphone"></use>
-                    </svg> +38 096 111 11 11
-
-                </a>
-            </li>
-        </ul>
-
-        <div data-menu class="mobile is-hidden">
-            <div class="mobile__conteiner">
-
-
-                <button data-menu-close type="button" class="mobile__btn">
-                    <svg class="mobile__icon-open" width="40" height="40">
-                        <use href="imeges/iconsvg.svg#icon-close_40px"></use>
-                    </svg>
-                </button>
-
-
-
-                <ul class="mobile__list list">
-                    <li class="mobile__item"><a class="link" href="./index.html">Студия</a></li>
-                    <li class="mobile__item"><a class="link current__mobile" href="./portfolio.html" target="_blank">Портфолио</a></li>
-                    <li class="mobile__item"><a class="link" href=".Cotacts.html">Контакты</a></li>
-                </ul>
-                </nav>
-                <ul class="mobile__adress list">
-                    <li class="mobile__adress--ithem">
-                        <a class="link mobile__link--tel" href="tel:+380961111111">
-                            +38 096 111 11 11</a>
-
-                    </li>
-                    <li class="mobile__adress--ithem">
-                        <a class="link mobile__link--mail" href="mailto:info@devstudio.com">
-                            info@devstudio.com
-                        </a>
-                    </li>
-                </ul>
-                <ul class="mobile__social--list list">
-                    <li class="mobile__social--ithem">
-                        <a class="link mobile__social--link" href="">Instagram</a>
-                    </li>
-                    <li class="mobile__social--ithem">
-                        <a class="link mobile__social--link" href="">Twitter</a>
-                    </li>
-                    <li class="mobile__social--ithem">
-                        <a class="link mobile__social--link" href="">Facebook</a>
-                    </li>
-                    <li class="mobile__social--ithem">
-                        <a class="link mobile__social--link" href="">LinkedIn</a>
-                    </li>
-                </ul>
-
-            </div>
-        </div>
-    </div>
-</header> -->
     <header class="header">
         <div class="conteiner header__conteiner">
             <nav class="header__nav">
@@ -225,9 +136,18 @@
                 <li class="progects__list"> 
                 <a href="" class="link">
                     <div class="overlay">
-                    <img srcset="./imeges/porfolio__imeg-texh.jpg 1x,
-                                    ./imeges/porfolio__imeg-texh-2.jpg 2x"
-                    src="./imeges/tech.jpg" alt="Фото работ" width="370">
+                        <picture>
+                            <source srcset="./imeges/porfolio__imeg-texh.jpg 1x,
+                                            ./imeges/porfolio__imeg-texh-2.jpg 2x" 
+                            media=""
+                                            >
+                            <img srcset="./imeges/porfolio__imeg-texh.jpg 1x,
+                                                            ./imeges/porfolio__imeg-texh-2.jpg 2x" 
+                                                            src="./imeges/tech.jpg" alt="Фото работ"
+                            width="370">
+                        
+                        </picture>
+                 
                             <div class="conteiner__overlay">
                                 <p class="text__overlay">
                                     Технокряк это современная площадка распространения
