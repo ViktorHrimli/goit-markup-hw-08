@@ -57,13 +57,13 @@
     
             <div data-menu class="mobile is-hidden">
                 <div class="mobile__conteiner">
-    
-    
-                    <button data-menu-close type="button" class="mobile__btn">
+                    <div class="mobile__conteiner--close">
+                    <button data-menu-close type="button" class="mobile__btn--close">
                         <svg class="mobile__icon--open" width="40" height="40">
                             <use href="imeges/iconsvg.svg#icon-close_40px"></use>
                         </svg>
                     </button>
+                    </div>
     
     
     
@@ -72,7 +72,6 @@
                         <li class="mobile__item"><a class="link current__mobile" href="./portfolio.html" target="_blank">Портфолио</a></li>
                         <li class="mobile__item"><a class="link" href=".Cotacts.html">Контакты</a></li>
                     </ul>
-                    </nav>
                     <ul class="mobile__adress list">
                         <li class="mobile__adress--ithem">
                             <a class="link mobile__link--tel" href="tel:+380961111111">
@@ -432,9 +431,6 @@
                                         <img src="./imeges/append.jpg.jpg" alt="Фото работ" width="370">
                                     
                                     </picture>
-                    <!-- <img srcset="./imeges/growing.jpg 1x,
-                                    ./imeges/growing--2.jpg 2x"
-                    src="./imeges/append.jpg" alt="Фото работ" width="370"> -->
                     <div class="conteiner__overlay">
                         <p class="text__overlay">
                             Технокряк это современная площадка распространения
@@ -479,8 +475,8 @@
                 <ul class="list center__list">
                     <li class="list center__items">
                         <a class="link join--link" href="">
-                            <svg class="team__icon" widht="20" height="20">
-                                <use href="imeges/iconsvg.svg#icon-instagram">
+                            <svg class="team__icon" width="20" height="20">
+                                <use href="imeges/iconsvg.svg#icon-instagram"></use>
                             </svg>
                         </a>
                     </li>
@@ -488,31 +484,32 @@
                     <li class="list center__items">
                         <a class="link join--link" href="">
                             <svg class="team__icon">
-                                <use href="imeges/iconsvg.svg#icon-twitter">
+                                <use href="imeges/iconsvg.svg#icon-twitter"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="list center__items">
                         <a class="link join--link" href="">
                             <svg class="team__icon">
-                                <use href="imeges/iconsvg.svg#icon-facebook">
+                                <use href="imeges/iconsvg.svg#icon-facebook"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="list center__items">
                         <a class="link join--link" href="">
                             <svg class="team__icon">
-                                <use href="imeges/iconsvg.svg#icon-linkedin">
+                                <use href="imeges/iconsvg.svg#icon-linkedin"></use>
                             </svg>
                         </a>
                     </li>
+                </ul>
             </div>
         </div>
         <div class="footer__right">
             <div class="right__conteiner">
                 <p class="join">Подпишитесь на рассылку</p>
                 <label class="right__mail--footer" for="mail-fotter">
-                    <input class="input-mail" type="mail-fotter" id="mail-fotter" name="mail-fotter"
+                    <input class="input-mail" type="text" id="mail-fotter" name="mail-fotter"
                         placeholder="E-mail">
                 </label>
             </div>
@@ -526,7 +523,6 @@
 
     </div>
 
-    </div>
 </footer>
 
 <script src="./js/mobile-menu.js"></script>
